@@ -114,16 +114,16 @@ ul { list-style: none;}
 }
 
 .details{	margin-top: 30px;}
-.details ul{ float: left;}
-.details ul:nth-of-type(1){ margin-left: 14px; }
-.details ul img{
-	width: 319px;
-	height: 228px;
-	margin-right: 14px;
+.details ul li{ 
+	float: left;
+	margin-right: 10px;
+	width: 290px;
+}
+.details ul li img{
 	border-radius: 10px;
+	max-width: 100%;
 }
 .details ul li a{
-	font-size: 2rem;
 	font-weight: bold;
 	color: #666;
 	padding-left: 10px;
